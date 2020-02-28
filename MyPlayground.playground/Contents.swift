@@ -33,7 +33,7 @@ print ( 2 * 7 )
 print ( 2 * 8 )
 print ( 2 * 9 )
 
-for var i in 1..<10 {
+for i in 1..<10 {
     print ( 2 * i )
 }
 
@@ -134,3 +134,27 @@ if batteryRemaining <= 10 {
 } else if batteryRemaining <= 20 {
     print("バッテリー残量は残り20%以下です")
 }
+
+for x in 1...9 {
+    if x % 2 == 0 {
+        for n in 1...9 {
+            print( x * n )
+        }
+    }
+}
+
+switch num {
+    case 0:
+        print("0です。")
+    case 1:
+        print("1です。")
+    default:
+        print("わかりませんでした。")
+}
+
+var i = 0
+while i < 5 {
+    print(i)
+    i = i + 1
+}
+
