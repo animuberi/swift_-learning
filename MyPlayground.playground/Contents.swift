@@ -92,3 +92,45 @@ print ( "バッテリー残量が少なくなっています" )
 
 var alert = "バッテリー残量が少なくなっています"
 print (alert)
+
+var batteryRemaining = 18
+print ("バッテリーの残量はあと\(batteryRemaining)%です。")
+
+print (1 == 1)
+print (1 == 2)
+
+var number:Int = 3
+var dnumber = 3.14
+var word = "3.14"
+
+number = 4
+
+word = "Takahashi"
+
+//var bodyTemp = 36.5
+//bodyTemp = 37
+
+number = 3
+let pi:Double = 3.14
+
+// 練習問題
+var bodyTemp:Double = 36
+bodyTemp = 36.5
+
+if batteryRemaining <= 20 {
+    print ("バッテリー残量が少なくなっています")
+}
+
+var num = -1
+
+if num > 0 {
+    print("\(num)は正の数です")
+} else {
+    print("\(num)は負の数か０です")
+}
+
+if batteryRemaining <= 10 {
+    print("バッテリー残量は残り10%以下です")
+} else if batteryRemaining <= 20 {
+    print("バッテリー残量は残り20%以下です")
+}
