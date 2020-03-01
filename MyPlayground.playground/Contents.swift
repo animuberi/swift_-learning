@@ -33,7 +33,7 @@ print ( 2 * 7 )
 print ( 2 * 8 )
 print ( 2 * 9 )
 
-for var i in 1..<10 {
+for i in 1..<10 {
     print ( 2 * i )
 }
 
@@ -134,3 +134,41 @@ if batteryRemaining <= 10 {
 } else if batteryRemaining <= 20 {
     print("バッテリー残量は残り20%以下です")
 }
+
+var todos = ["ジョギングする", "選択する", "掃除する"]
+print(todos[0])
+
+var index = 2
+print(todos[index])
+
+todos[0] = "家で映画を観る"
+
+print(todos)
+
+todos.append("牛乳を買う")
+todos.remove(at: 1)
+print(todos)
+
+for task in todos {
+    print(task)
+}
+
+var numberOfTires = ["車":4, "バイク":2, "船":0]
+
+print(numberOfTires["車"])
+
+numberOfTires["車"] = 6
+
+numberOfTires["三輪車"] = 3
+
+print(numberOfTires)
+
+numberOfTires["車"] = nil
+
+print(numberOfTires)
+
+var testResult = ["国語":95, "数学":70, "英語":80]
+print(testResult)
+
+testResult["数学"] = 100
+print(testResult)
