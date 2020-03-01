@@ -135,6 +135,29 @@ if batteryRemaining <= 10 {
     print("バッテリー残量は残り20%以下です")
 }
 
+for x in 1...9 {
+    if x % 2 == 0 {
+        for n in 1...9 {
+            print( x * n )
+        }
+    }
+}
+
+switch num {
+    case 0:
+        print("0です。")
+    case 1:
+        print("1です。")
+    default:
+        print("わかりませんでした。")
+}
+
+var i = 0
+while i < 5 {
+    print(i)
+    i = i + 1
+}
+
 var todos = ["ジョギングする", "選択する", "掃除する"]
 print(todos[0])
 
@@ -172,3 +195,6 @@ print(testResult)
 
 testResult["数学"] = 100
 print(testResult)
+
+
+
