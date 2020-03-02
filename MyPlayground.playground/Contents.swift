@@ -196,5 +196,35 @@ print(testResult)
 testResult["数学"] = 100
 print(testResult)
 
+func kuku2dan() {
+    for x in 1...9 {
+        print(2 * x)
+    }
+}
 
+kuku2dan()
 
+func kuku(dan:Int) {
+    for x in 1...9 {
+        print(dan * x)
+    }
+}
+
+kuku(dan: 3)
+
+func areaOfTriangle(withBase base:Int, height:Int) -> Int {
+    let result = (base * height / 2)
+    return result
+}
+
+var area = areaOfTriangle(withBase: 3, height: 4)
+print(area)
+
+// 練習問題
+func squareArea(withSideLength length:Int) -> Int {
+    let result = (length * length)
+    return result
+}
+
+var square = squareArea(withSideLength: 3)
+print(square)
